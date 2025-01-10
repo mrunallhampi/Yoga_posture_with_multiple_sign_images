@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B.Tech Project</title>
+    <style>
+        .option-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 50px;
+        }
+
+        .option {
+            text-align: center;
+        }
+
+        .option img {
+            width: 150px;
+            height: 150px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.3s, border-color 0.3s;
+        }
+
+        .option img:hover {
+            transform: scale(1.1);
+            border-color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Choose the exercise you want to perform</h1>
+
+    <div class="option-container">
+        <div class="option">
+            <img src="C:\Btech Project\DATASET\DATASET\TRAIN\downdog\00000128.jpg" alt="downdog" onclick="performAction(1)">
+            <p>Downdog pose</p>
+        </div>
+        <div class="option">
+            <img src="C:\Btech Project\DATASET\DATASET\TRAIN\goddess\00000096.jpg" alt="goddess" onclick="performAction(2)">
+            <p>Goddess pose</p>
+        </div>
+        <div class="option">
+            <img src="C:\Btech Project\DATASET\DATASET\TRAIN\plank\00000177.jpg" alt="plank" onclick="performAction(3)">
+            <p>Plank</p>
+        </div>
+        <div class="option">
+            <img src="C:\Btech Project\DATASET\DATASET\TRAIN\tree\00000071.jpg" alt="tree" onclick="performAction(4)">
+            <p>Tree pose</p>
+        </div>
+        <div class="option">
+            <img src="C:\Btech Project\DATASET\DATASET\TRAIN\warrior2\00000132.jpg" alt="warrior" onclick="performAction(5)">
+            <p>Warrior pose</p>
+        </div>
+    </div>
+
+    </body>
+</html>
